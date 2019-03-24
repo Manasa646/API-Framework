@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.qa.post.Login">
+        <methods>
+          <include name="validLogin"/>
+          <include name="getstatus"/>
+          <include name="pojodynamically"/>
+          <include name="setup"/>
+          <include name="invalidpassword"/>
+        </methods>
+      </class> <!-- com.qa.post.Login -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
